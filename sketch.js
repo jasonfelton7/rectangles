@@ -12,7 +12,7 @@ function draw() {
     rectX = random(width);
     rectY = random(height);
     
-    fill(Math.floor(random(256), random(256), random(256));
+    fill(random(256), random(256), random(256));
     noStroke();
     rect(rectX, rectY, random(300), random(300));
 
