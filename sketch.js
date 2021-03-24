@@ -1,12 +1,19 @@
+let rectX;
+let rectY;
+
 function setup() {
-    createCanvas(1920, 937);
+    createCanvas(windowWidth, windowHeight);
     background(40);
     frameRate(4);
 }
 
 function draw() {
-   fill(Math.floor(Math.random() * 256), Math.floor(Math.random() * 256), Math.floor(Math.random() * 256));
-   noStroke();
-   rect(Math.floor(Math.random() * 1920), Math.floor(Math.random() * 937), Math.floor(Math.random() * 600), Math.floor(Math.random() * 600));
+    
+    rectX = random(width);
+    rectY = random(height);
+    
+    fill(Math.floor(random(256), random(256), random(256));
+    noStroke();
+    rect(rectX, rectY, random(300), random(300));
 
 }
